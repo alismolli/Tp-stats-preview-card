@@ -1,2 +1,102 @@
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+:root{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    /* Primary colors */
+        /* (main background) */
+    --Very-dark-blue: hsl(233, 47%, 7%);
+        /* (card background) */
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+        /* (accent) */
+    --Soft-violet: hsl(277, 64%, 61%);
+    /* Neutral colors */
+        /* (main heading, stats) */
+    --White: hsl(0, 0%, 100%);
+        /* (main paragraph) */
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+        /* (stat headings) */
+    --Slightly-transparent: hsla(0, 0%, 100%, 0.6);
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: var(--Very-dark-blue);
+}
+.preview-card{
+    margin: 0 auto 88.125px auto ;
+    margin-top: 23.5%;
+    width: 87%;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: var(--Dark-desaturated-blue);
+}
+.preview-card header img{
+    image-rendering: var(--Soft-violet);
+    height: 240px;
+    width: 100%;
+}
+
+main{
+    text-align: center;
+}
+main H1{
+    margin: 30px 40px 18px 40px;
+    text-align: center;
+    font-size: 1.55em;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    line-height: 32px;
+}
+main H1 span{
+    color: var(--Soft-violet);
+}
+main p {
+    margin: 0 20px 50px 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color:var(--Slightly-transparent);
+    font-weight: 400;
+    line-height: 25px;
+}
+.plan{
+    color: var(--Slightly-transparent);
+    padding: 0 20px;
+    width: 375;
+    margin: auto auto 40px auto;
+}
+.plan div{
+    flex-direction: column;
+    text-align: center;
+}
+.plan_type-companies :nth-child(1){
+    margin: 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    line-height: 18px;
+}
+.plan_type-companies :nth-child(2){
+    Font-size: 13px;
+}
+.plan_type-templates :nth-child(1){
+    margin: 32px 10px 10px 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    line-height: 18px;
+}
+.plan_type-templates :nth-child(2){
+    Font-size: 13px;
+}
+.plan_type-queries :nth-child(1){
+    margin: 32px 10px 10px 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    line-height: 18px;
+}
+.plan_type-queries :nth-child(2){
+    Font-size: 13px;
+}
