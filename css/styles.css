@@ -42,13 +42,13 @@ body{
 }
 .color::before{
     content: "";
-    background-color: var(--Soft-violet);
+    background-color: darkviolet;
     width: 100%;
     height: 100%;
     position: absolute;
     top:0;
     left:0;
-    opacity: 0.3;
+    opacity: 0.4;
     border-radius: 10px 10px 0 0;
 }
 main{

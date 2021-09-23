@@ -1,0 +1,104 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: var(--Very-dark-blue);
+}
+.preview-card{
+    margin: 0 auto 252px auto ;
+    margin-top: 17.5%;
+    width: 77.3%;
+    overflow:hidden;
+    border-radius: 8px;
+    background-color: var(--Dark-desaturated-blue);
+    align-content: center;
+}
+
+.color{
+    background-image: url("../images/image-header-desktop.jpg");
+    width: 100%;
+    height: 445px;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    border-radius: 10px 10px 0 0;
+}
+.color::before{
+    content: "";
+    background-color: darkviolet;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0.4;
+    border-radius: 10px 10px 0 0;
+}
+.plan {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px 120px 0px 0px;
+}
+main{
+    display:flex;
+    flex-direction:row-reverse;
+    text-align:left;
+    width: 100%;
+    height: 446px;
+    justify-content: center;
+    margin-right: 0px;
+}
+main H1{
+    margin: 38px 120px 24px 45px;
+    font-size: 32px;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    line-height: 45px;
+    letter-spacing: 0px;
+}
+main p{
+    margin: 0px 100px 46px 45px;
+    text-align: left;
+    letter-spacing: 0px;
+}
+.texto {
+    margin: 30px 40px;
+    align-content: left;
+}
+.plan_type-companies :nth-child(1){
+    margin: 32px 10px 10px 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    line-height: 18px;
+    text-align: left;
+}
+.plan_type-companies :nth-child(2){
+    Font-size: 13px;
+}
+.plan_type-templates :nth-child(1){
+    margin: 32px 10px 10px 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    line-height: 18px;
+    text-align: left;
+}
+.plan_type-templates :nth-child(2){
+    Font-size: 13px;
+}
+.plan_type-queries :nth-child(1){
+    margin: 32px 10px 10px 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    line-height: 18px;
+    text-align: left;
+}
+.plan_type-queries :nth-child(2){
+    Font-size: 13px;
+}
